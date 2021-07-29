@@ -31,5 +31,5 @@ out.write("name,url,username,password\n")
 for i in range(len(logins)):
 	out.write(name[i] + delimiteur + url[i] + delimiteur + logins[i] + delimiteur + passwords[i] + '\n')
 out.close()
-print("Opération réussie !")
+print("Successful operation !")
 sleep(3)
